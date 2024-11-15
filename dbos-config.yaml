@@ -1,0 +1,12 @@
+version: '1.0'
+app_name: 'myfirstapp'
+databases:
+  - name: 'main_database'
+    host: 'localhost'
+    port: 5432
+    user: 'username'
+    password: 'password'
+    db_name: 'mydatabase'
+environment:
+  DEBUG: true
+  SECRET_KEY: 'your_secret_key'
